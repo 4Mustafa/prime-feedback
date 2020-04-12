@@ -17,14 +17,12 @@ class Comments extends Component {
 
     }
     handleSubmit = (event) => {
-        if (this.state.Comments === '') {
-            alert('Please fill out the answer')
-        } else {
-            event.preventDefault();
-            console.log(this.state.Comments);
-            this.props.dispatch({ type: 'CommentsQ', payload: this.state.Comments })
-            this.props.history.push('/Review');
-        }
+
+        event.preventDefault();
+        console.log(this.state.Comments);
+        this.props.dispatch({ type: 'CommentsQ', payload: this.state.Comments })
+        this.props.history.push('/Review');
+
     }
 
 
@@ -32,9 +30,11 @@ class Comments extends Component {
         return (
 
             <div className="App">
-                <header><h1>  Any comments you want to leave? </h1>
-                    <h4>Comments</h4>
-                </header>
+                <header>Any comments you want to leave? </header>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <input type='text'
                     value={this.state.Comments}
                     onChange={this.handleChange}

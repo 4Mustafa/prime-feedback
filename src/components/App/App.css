@@ -2,11 +2,11 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #033076;
-  min-height: 70px;
-  padding: 20px;
-  color: white;
+header {
+  height: 50px;
+  size: 10in;
+  background-color:  rgb(134, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .App-title {
@@ -16,4 +16,35 @@
 .App-intro {
   font-size: large;
 }
+*{
+  background-color: rgb(222, 212, 250);
+  color: rgb(255, 255, 255);
+}
 
+p{
+  font-size: xx-large;
+  color:  rgb(134, 0, 0);
+}
+select{
+  font-size: 20px;
+  color: rgb(134, 0, 0);
+    border-color: rgb(222, 212, 250);
+
+}
+button{
+  color: rgb(134, 0, 0);
+  font-size: 20px;
+  border-color: rgb(222, 212, 250);
+}
+h1,h4{
+color: rgb(134, 0, 0);
+  font-size: xx-large;
+
+}
+input{
+  color: rgb(134, 0, 0);
+    font-size: 20px;
+      border-color: rgb(222, 212, 250);
+
+
+}

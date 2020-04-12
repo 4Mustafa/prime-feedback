@@ -32,8 +32,11 @@ class Understanding extends Component {
         return (
 
             <div className="App">
-                <header>How well are you understanding the content?</header>
-
+                <header>   How well are you understanding the content?</header>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <select onChange={this.handleChange} value={this.state.Understanding}>
                     <option value='' >Select</option>
                     <option value='5'>5</option>

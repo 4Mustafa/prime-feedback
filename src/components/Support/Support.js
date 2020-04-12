@@ -31,8 +31,11 @@ class Support extends Component {
         return (
 
             <div className="App">
-                <header>  <h1> How well are you being supported?  </h1>
-                </header>
+                <header> How well are you being supported?  </header>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <select onChange={this.handleChange} value={this.state.Support}>
                     <option value='' >Select</option>
                     <option value='5'>5</option>

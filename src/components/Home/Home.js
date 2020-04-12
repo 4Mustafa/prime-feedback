@@ -15,9 +15,10 @@ class Home extends Component {
             <div>
                 <header className="App-header">
                     <h1 className="App-title">Feedback!</h1>
-                    <h4><i>Don't forget it!</i></h4>
+                    <h4><>Don't forget it!</></h4>
+                    <button onClick={this.handleClick}>New Feedback</button>
+
                 </header>
-                <button onClick={this.handleClick}>New Feedback</button>
             </div>
         );
     }

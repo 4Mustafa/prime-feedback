@@ -17,8 +17,14 @@ class Submit extends Component {
     render() {
         return (
             <>
-                <h1>submmit another survey</h1>
-                <button onClick={this.handleClick}>SEND ME BACK</button>
+                <header> Tnak you for your feedback</header>
+                <h1>click the button below to submit more feedback</h1>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <button onClick={this.handleClick}>Submit feedback </button>
+
             </>
 
 

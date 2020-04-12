@@ -23,11 +23,15 @@ class Review extends Component {
         const feedBack = this.props.reduxStore.feedBack
         return (
             <div className='review'>
-                <header>Submit your answers</header>
-                <p>feelings :{feedBack.Feeling} </p>
-                <p>understanding:{feedBack.Understanding} </p>
-                <p>support :{feedBack.Support}</p>
-                <p>comments:{feedBack.Comments} </p>
+                <header>Review your feedBack</header>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>feelings:   {feedBack.Feeling} </p>
+                <p>understanding:   {feedBack.Understanding} </p>
+                <p>support:   {feedBack.Support}</p>
+                <p>comments:   {feedBack.Comments} </p>
                 <button onClick={this.submitFeedback}>SUBMIT</button>
 
             </div>
