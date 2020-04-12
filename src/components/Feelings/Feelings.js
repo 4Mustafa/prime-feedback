@@ -32,9 +32,9 @@ class Feelings extends Component {
         return (
 
             <div className="App">
-                <header>how are you feeling today?</header>
-                <h4>Feelings</h4>
-
+                <header> <h1> how are you feeling today?  </h1>
+                    <h4>Feelings</h4>
+                </header>
                 <select onChange={this.handleChange} value={this.state.Feelings}>
                     <option value='' >Select</option>
                     <option value='5'>5</option>

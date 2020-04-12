@@ -33,7 +33,6 @@ class Understanding extends Component {
 
             <div className="App">
                 <header>How well are you understanding the content?</header>
-                <h4>Understanding</h4>
 
                 <select onChange={this.handleChange} value={this.state.Understanding}>
                     <option value='' >Select</option>
