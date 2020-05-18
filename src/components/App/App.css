@@ -17,7 +17,7 @@ header {
   font-size: large;
 }
 *{
-  background-color: rgb(222, 212, 250);
+  background-color: rgb(235, 228, 255);
   color: rgb(255, 255, 255);
 }
 
@@ -28,7 +28,7 @@ p{
 select{
   font-size: 20px;
   color: rgb(134, 0, 0);
-    border-color: rgb(222, 212, 250);
+    border-color: rgb(239, 234, 252);
 
 }
 button{

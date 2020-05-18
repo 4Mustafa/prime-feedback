@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { withRouter } from "react-router";
 
 
 
@@ -35,9 +34,6 @@ class Submit extends Component {
 
 
 
-const putReduxStateOnProps = (reduxStore) => ({
-    reduxStore
 
-})
 
-export default connect(putReduxStateOnProps)(withRouter(Submit));
+export default connect()(Submit);

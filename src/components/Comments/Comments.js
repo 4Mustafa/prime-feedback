@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import './comments.css';
 
 class Comments extends Component {
     state = {
@@ -30,7 +29,7 @@ class Comments extends Component {
         return (
 
             <div className="App">
-                <header>Any comments you want to leave? </header>
+                <header>Do you want to leave any comments? </header>
                 <br></br>
                 <br></br>
                 <br></br>

@@ -16,7 +16,7 @@ class Home extends Component {
                 <header className="App-header">
                     <h1 className="App-title">Feedback!</h1>
                     <h4><>Don't forget it!</></h4>
-                    <button onClick={this.handleClick}>New Feedback</button>
+                    <button onClick={this.handleClick}>Submit New Feedback</button>
 
                 </header>
             </div>
